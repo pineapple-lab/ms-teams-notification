@@ -11,7 +11,7 @@ export function createMessageCard(
   timestamp: string
 ): any {
   let avatar_url =
-    'https://www.gravatar.com/avatar/05b6d8cc7c662bf81e01b39254f88a48?d=identicon'
+    'https://raw.githubusercontent.com/pineapple-lab/ms-teams-notification/main/src/assets/github.png'
   if (author) {
     if (author.avatar_url) {
       avatar_url = author.avatar_url
